@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="TestGun">
+  <PartType id="Mod_GunTest_TestGun" name="TestGun" modPrefabPath="Assets/_ModAssets_/Parts/TestGun.prefab" mass="60" health="100" damageDisconnect="false" sharesRigidBody="false" combineMeshes="false" disconnectForce="10" underwaterDragScalar="30" defaultMaterials="0,4,6,-1">
+    <Modifiers>
+      <Gun activationGroup="0" ammoCount="200" bulletCaliberMeters="0" bulletWeightKg="0.005" burstCount="45" muzzleVelocity="800" roundsPerSecond="15" timeBetweenBursts="1" />
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint adaptiveIgnore="true" a="1111" allowRotation="false" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="0,1,0" position="0,0.125,0" />
+      <AttachPoint adaptiveIgnore="true" a="1111" allowRotation="false" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="0,-1,0" position="0,-0.125,0" />
+      <AttachPoint adaptiveIgnore="true" a="1111" allowRotation="false" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="-1,0,0" position="-0.125,0,0" />
+      <AttachPoint adaptiveIgnore="true" a="1111" allowRotation="false" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="1,0,0" position="0.125,0,0" />
+    </AttachPoints>
+  </PartType>
+  <DesignerPart name="Test Gun" category="Weapons" description="">
+    <Assembly>
+      <Parts>
+        <Part id="1" partType="Mod_GunTest_TestGun" position="0,0,0" rotation="0,0,0">
+          <Gun.State activationGroup="0" ammoCount="200" bulletCaliberMeters="0" bulletWeightKg="0.005" burstCount="45" muzzleVelocity="800" roundsPerSecond="15" timeBetweenBursts="1" />
+        </Part>
+      </Parts>
+    </Assembly>
+  </DesignerPart>
+</Part>

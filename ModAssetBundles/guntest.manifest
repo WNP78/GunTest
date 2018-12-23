@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1561411930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1bda25087b623a90cab71f6e24d6a6b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c2664fa67b3b739e65e76d62734d861c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1777401136, guid: 0ae1b6aafcdc6bc46b35491a5c18721e, type: 3}
+- Class: 114
+  Script: {fileID: 463027472, guid: 3cde37892b4f7594bbbc3ac6c74ecab7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/_ModAssets_/Parts/TestGun.xml
+- Assets/_ModAssets_/Parts/TestGun.prefab
+- Assets/_ModAssets_/ModManifest.xml
+- Assets/Machine+Gun+4.wav
+Dependencies: []

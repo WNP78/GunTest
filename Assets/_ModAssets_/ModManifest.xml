@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="f5840005-d84a-427a-8f86-5427a42f7044">
+  <Mod name="GunTest" author="WNP78" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="12/23/2018 8:11:21 PM" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="TestGun" path="Assets/_ModAssets_/Parts/TestGun.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Machine+Gun+4.wav" />
+    </Assets>
+    <Assemblies />
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts>
+          <Part name="TestGun" prefabPath="Assets/_ModAssets_/Parts/TestGun.prefab" xmlPath="Assets/_ModAssets_/Parts/TestGun.xml" />
+        </Parts>
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
